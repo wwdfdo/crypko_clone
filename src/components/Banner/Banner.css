@@ -8,6 +8,7 @@
 .nav-list li a:after {
   /* All pseudo elements are 
      abs. positioned and on bottom */
+  /* content: ""; */
   position: absolute;
   bottom: 0;
 }
@@ -33,12 +34,9 @@
 .nav-list li:before,
 .nav-list li:after {
   background: #ddc385;
-  width: 10px;
-  height: 10px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
 .nav-list li:before {
   top: -5px;
@@ -54,8 +52,7 @@
   width: 20px;
   height: 20px;
 
-  border-radius: 50px;
-  background: #222;
+  background: transparent;
 
   z-index: 2;
 }
