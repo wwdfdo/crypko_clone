@@ -1,0 +1,62 @@
+.nav-list li:before,
+.nav-list li:after,
+.nav-list li a:before,
+.nav-list li a:after {
+  /* All pseudo elements are 
+     abs. positioned and on bottom */
+  position: absolute;
+  bottom: 0;
+}
+/* Only the first, last, and active
+   tabs need pseudo elements at all */
+.nav-list li:last-child:after,
+.nav-list li:last-child a:after,
+.nav-list li:first-child:before,
+.nav-list li:first-child a:before,
+.nav-list .active:after,
+.nav-list .active:before,
+.nav-list .active a:after,
+.nav-list .active a:before {
+  content: "";
+}
+.nav-list .active:before,
+.nav-list .active:after {
+  background: white;
+
+  /* Squares below circles */
+  z-index: 1;
+}
+/* Squares */
+.nav-list li:before,
+.nav-list li:after {
+  background: #ddc385;
+  width: 10px;
+  height: 10px;
+}
+.nav-list li:before {
+  top: -5px;
+  left: -5px;
+}
+.nav-list li:after {
+  top: -5px;
+  right: -5px;
+}
+/* Circles */
+.nav-list li a:after,
+.nav-list li a:before {
+  width: 20px;
+  height: 20px;
+  /* Circles are circular */
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #222;
+
+  /* Circles over squares */
+  z-index: 2;
+}
+
+.nav-list {
+  border-bottom-left-radius: 30em;
+  border-bottom-right-radius: 30em;
+}
