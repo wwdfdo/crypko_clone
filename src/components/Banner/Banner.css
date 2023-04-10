@@ -17,7 +17,6 @@
 .nav-list .active:before,
 .nav-list .active a:after,
 .nav-list .active a:before {
-  content: "";
 }
 .nav-list .active:before,
 .nav-list .active:after {
@@ -32,6 +31,10 @@
   background: #ddc385;
   width: 10px;
   height: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .nav-list li:before {
   top: -5px;
@@ -46,17 +49,14 @@
 .nav-list li a:before {
   width: 20px;
   height: 20px;
-  /* Circles are circular */
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
+
   border-radius: 50px;
   background: #222;
 
-  /* Circles over squares */
   z-index: 2;
 }
 
 .nav-list {
-  border-bottom-left-radius: 30em;
-  border-bottom-right-radius: 30em;
+  border-bottom-left-radius: 100em;
+  border-bottom-right-radius: 100em;
 }
