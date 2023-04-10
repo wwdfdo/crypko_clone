@@ -72,11 +72,37 @@ const Banner = () => {
               alt=""
             />
           </div>
-          <div className="w-[600px] absolute bottom-10 right-10 rounded-2xl p-5 flex flex-col tabs tab-left-right">
+          {/* <div className="w-[600px] absolute bottom-10 right-10 rounded-2xl p-5 flex flex-col tabs tab-left-right">
             <div>
               <h3>SMARTPHONE APP MEMES</h3>
             </div>
             <div className="content">
+              <p>
+                The smartphone application MEMES, where Crypko serves as the
+                core technology behind, is now available in Apple App Store &
+                Google Play
+              </p>
+              <div className="flex justify-between w-full">
+                <div className="flex relative">
+                  <IoIosAppstore className="w-[30px] h-[30px] bg-green-800 rounded-full" />
+                  <FaGooglePlay className="w-[30px] h-[30px] bg-green-800 rounded-full -ml-2" />
+                </div>
+                <div className="border-2 border-black rounded-3xl flex items-center">
+                  <span className="px-5">download</span>
+                  <div className="bg-green-700 h-[30px] rounded-full w-[30px] flex items-center justify-center">
+                    <HiDownload />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          <div class="tabs tab-left absolute bottom-0 right-40 rounded-2xl  flex flex-col">
+            <nav>
+              <a href="#content6" className="font-semibold">
+                SMARTPHONE APP MEMES
+              </a>
+            </nav>
+            <div className="content flex flex-col gap-5 rounded-bl-xl rounded-br-xl rounded-tr-xl">
               <p>
                 The smartphone application MEMES, where Crypko serves as the
                 core technology behind, is now available in Apple App Store &
