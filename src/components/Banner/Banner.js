@@ -9,12 +9,15 @@ import { HiDownload } from "react-icons/hi";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
+import logo from "../../images/tolrlogo.png";
 
 const Banner = () => {
   return (
     <div className=" bg-white h-screen px-2 py-5">
       <ul className="flex justify-between absolute right-0 left-0 gap-10 pb-5 bg-[#ed3b4b]  mx-20">
-        <div className="mt-5 font-bold text-xl text-black z-[100]">Crypko</div>
+        <div className="mt-2 ml-10 font-bold text-xl text-black z-[100]">
+          <img src={logo} className="w-[80px]" alt="" />
+        </div>
         <div className="flex justify-center  gap-20 px-40 py-4  z-100 nav-list absolute right-0 left-1 w-[70%] mx-auto font-bold">
           <li>Home</li>
           <li>Gallery</li>
@@ -28,13 +31,13 @@ const Banner = () => {
             {/* <div className="h-6 w-[3px] bg-white"></div> */}
 
             <li className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase ">
-              <AiFillTwitterCircle size={24} />
+              <AiFillTwitterCircle size={32} />
             </li>
             <li className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase ">
-              <AiFillInstagram size={24} />
+              <AiFillInstagram size={32} />
             </li>
             <li className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase ">
-              <FaDiscord size={24} />,
+              <FaDiscord size={32} />,
             </li>
           </ul>
         </div>
@@ -48,14 +51,14 @@ const Banner = () => {
             </h1>
             <img
               src={circle}
-              className="w-[200px] absolute right-[40%] bottom-[30%] self-end"
+              className="w-[250px] absolute right-[35%] bottom-[35%] self-end"
               alt=""
             />
           </div>
           <div>
             <img
               src={crypkoGirl}
-              className="w-[300px] top-10 right-40 absolute"
+              className="w-[310px] top-16 right-40 absolute"
               alt=""
             />
           </div>
