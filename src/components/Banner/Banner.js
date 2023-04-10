@@ -58,7 +58,7 @@ const Banner = () => {
           <div>
             <img
               src={crypkoGirl}
-              className="w-[310px] top-16 right-40 absolute"
+              className="w-[250px] top-16 right-40 absolute"
               alt=""
             />
           </div>
@@ -68,7 +68,7 @@ const Banner = () => {
           <div>
             <img
               src={crypkogirlboy}
-              className="w-[600px] absolute bottom-0 left-20 "
+              className="w-[500px] absolute bottom-5 left-32 "
               alt=""
             />
           </div>
