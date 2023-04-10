@@ -3,10 +3,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className=" bg-[#fccd27] h-screen px-2 py-5">
+    <div className=" bg-[#c15828] h-screen px-2 py-5">
       <ul className="flex justify-between absolute right-0 left-0 gap-10 pb-5 bg-[#ed3b4b]  mx-20">
         <div className="pt-5 font-bold text-xl">Crypko</div>
-        <div className="flex bg-[#fccd27] gap-10 p-5 rounded-br-xl rounded-bl-xl">
+        <div className="flex bg-[#c15828] gap-10 p-5 rounded-br-xl rounded-bl-xl">
           <li>Guideline</li>
           <li>Faq</li>
           <li>Contact Us</li>
@@ -15,7 +15,7 @@ function App() {
         </div>
         <div className="mt-5 ">
           {" "}
-          <span className="bg-[#fccd27] px-5 py-2 rounded-3xl">Join Us</span>
+          <span className="bg-[#c15828] px-5 py-2 rounded-3xl">Join Us</span>
         </div>
       </ul>
 
