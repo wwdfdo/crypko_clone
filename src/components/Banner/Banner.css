@@ -7,13 +7,13 @@
 .nav-list li a:before,
 .nav-list li a:after {
   /* All pseudo elements are 
-     abs. positioned and on bottom */
+       abs. positioned and on bottom */
   /* content: ""; */
   position: absolute;
   bottom: 0;
 }
 /* Only the first, last, and active
-   tabs need pseudo elements at all */
+     tabs need pseudo elements at all */
 .nav-list li:last-child:after,
 .nav-list li:last-child a:after,
 .nav-list li:first-child:before,
@@ -58,9 +58,9 @@
 }
 
 /* .nav-list {
-  border-bottom-left-radius: 100em;
-  border-bottom-right-radius: 100em;
-} */
+    border-bottom-left-radius: 100em;
+    border-bottom-right-radius: 100em;
+  } */
 
 .nav-list:before {
   content: "";
