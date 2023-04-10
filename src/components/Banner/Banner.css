@@ -74,7 +74,7 @@
   left: 24px;
   z-index: 1;
   border-bottom: none;
-  border-radius: 100em 100em 2em 0;
+  /* border-radius: 100em 100em 2em 0; */
   background: white;
-  transform: scale(1, 1) perspective(0.5em) rotateX(178deg);
+  transform: scale(1, 1) perspective(1em) rotateX(178deg);
 }

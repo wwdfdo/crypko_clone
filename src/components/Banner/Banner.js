@@ -6,7 +6,7 @@ const Banner = () => {
     <div className=" bg-white h-screen px-2 py-5">
       <ul className="flex justify-between absolute right-0 left-0 gap-10 pb-5 bg-[#ed3b4b]  mx-20">
         <div className="pt-5 font-bold text-xl">Crypko</div>
-        <div className="flex justify-center  gap-20 px-40 py-4  z-100 nav-list absolute right-0 left-1 w-2/3 mx-auto">
+        <div className="flex justify-center  gap-20 px-40 py-4  z-100 nav-list absolute right-0 left-1 w-[70%] mx-auto">
           <li>Guideline</li>
           <li>Faq</li>
           <li>Contact Us</li>
